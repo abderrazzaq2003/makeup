@@ -1,0 +1,146 @@
+#details{
+width: 100%;
+padding-bottom: 2%;
+
+}
+#image-shop{
+width: 100%;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+margin-top: 2%;
+}
+#image{
+    width: 400px;
+    height: 400px;
+    box-shadow: 1px 1px 12px;
+    border-radius: 30px;
+}
+#image img{
+    width: 100%;
+    height: 100%;
+   
+    border-radius: 30px;
+}
+#shop{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin-top: 1%;
+}
+#add{
+    width: 80px;
+    font-size: 25px;
+    outline: none;
+    background: #00FA9A;
+    border: none;
+    border-radius: 20px;
+    height: 50px;
+}
+#des{
+    width: 80px;
+    font-size: 25px;
+    outline: none;
+    background: #FF0000;
+    border: none;
+    border-radius: 20px;
+    height: 50px;
+}
+#nbshop{
+    display: block;
+    border: 2px solid black;
+    width: 80px;
+    font-size: 25px;
+    height: 40px;
+    text-align: center;
+    margin: 1%;
+    border-radius: 20px;
+}
+#det{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+
+}
+#det h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+    margin: 0;
+    font-size: 40px;
+}
+hr{
+    width: 50px;
+    height: 5px;
+    background: black;
+}
+#det p{
+    font-size: 18px;
+    color: #2F4F4F;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#stars{
+    display: flex;
+    font-size: 40px;
+    gap: 10px;
+    color: #FFD700;
+    justify-content: center;
+    
+}
+#rate{
+    width: 30%;
+    margin-top: 10%;
+   
+}
+#rate p{
+    color: #2F4F4F;
+}
+#description{
+    width: 50%;
+    
+ 
+}
+#close{
+    width: 100px;
+    height: 40px;
+    background:#DC143C;
+    color: #ffffff;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    margin: 5px;
+}
+#succes{
+    width: 100px;
+    height: 40px;
+    background:#00FA9A;
+    color: #ffffff;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    margin: 5px;
+}
+#btn-shop{
+    display: flex;
+    justify-content: center;
+
+}
+#p-succes{
+    width: 100%;
+    text-align: center;
+    background-color: #00FA9A;
+    margin: 0;
+    height: 30px;
+    color: #ffffff;
+    opacity: 0;
+}
+#icon-verif{
+    margin: 0;
+    position: relative;
+    top: 3.2px;
+    
+}

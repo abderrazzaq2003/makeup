@@ -1,0 +1,36 @@
+footer{
+    background: #363940;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#diff{
+width: 50%;
+}
+#diff h1{
+    text-align: center;
+    color: #f0fff3;
+}
+#diff p{
+    color: #f0fff3;
+    text-align: center;
+}
+#icons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+#diff a{
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    color: #f0fff3;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 30px;
+    border: 2px solid #f0fff3;
+}

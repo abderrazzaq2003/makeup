@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+     <script>
+
+    const scr=()=>{
+  window.onscroll=()=>{
+    
+    let carde=document.querySelectorAll('#carde');
+    let produits=document.querySelectorAll('#produit');
+    let y=scrollY;
+    console.log(y)
+    
+ 
+    
+   
+     for(let i=0;i<carde.length;i++){
+      if(y>=550){
+        carde[i].style.opacity='1';
+        carde[0].style.transition='0.5s';
+        carde[1].style.transition='1s';
+        carde[2].style.transition='1.5s';
+        carde[3].style.transition='2s';
+        carde[4].style.transition='2.5s';
+        carde[5].style.transition='3s';
+        carde[6].style.transition='3.5s';
+        carde[7].style.transition='4s';
+        carde[8].style.transition='4.5s';
+        carde[9].style.transition='5s';
+      }
+      else{
+        carde[i].style.opacity='0';
+      }
+
+    } 
+    for(let j=0;j<produits.length;j++){
+      if(j<4){
+        if(y>=1250){
+        produits[j].style.opacity='1';
+        produits[j].style.transition='1s'
+      }
+        else{
+          produits[j].style.opacity='0';
+        }
+      }
+      else if(j>=4 && j<8){
+        if(y>=1872){
+        produits[j].style.opacity='1';
+        produits[j].style.transition='1s'
+      }
+        else{
+          produits[j].style.opacity='0'
+        }
+      }
+      else if(j>=8 && j<12){
+        if(y>=2550){
+        produits[j].style.opacity='1';
+        produits[j].style.transition='1s'
+      }
+        else{
+          produits[j].style.opacity='0'
+        }
+        
+      }
+      else if(j>=12 && j<16){
+        if(y>=3100){
+        produits[j].style.opacity='1';
+        produits[j].style.transition='1s'
+      }
+        else{
+          produits[j].style.opacity='0'
+        }
+    }
+    else if(j>=16  && j<20){
+        if(y>=3900){
+        produits[j].style.opacity='1';
+        produits[j].style.transition='1s'
+      }
+        else{
+          produits[j].style.opacity='0'
+        }
+    }
+    else if(j>=20  && j<24){
+        if(y>=4500){
+        produits[j].style.opacity='1';
+        produits[j].style.transition='1s'
+      }
+        else{
+          produits[j].style.opacity='0'
+        }
+    }
+    else if(j>=24  && j<28){
+        if(y>=5000){
+        produits[j].style.opacity='1';
+        produits[j].style.transition='1s'
+      }
+        else{
+          produits[j].style.opacity='0'
+        }
+    }
+    else if(j>=28  && j<32){
+        if(y>=5700){
+        produits[j].style.opacity='1';
+        produits[j].style.transition='1s'
+      }
+        else{
+          produits[j].style.opacity='0'
+        }
+    }
+    else if(j>=32  && j<36){
+        if(y>=6300){
+        produits[j].style.opacity='1';
+        produits[j].style.transition='1s'
+      }
+        else{
+          produits[j].style.opacity='0'
+        }
+    }
+    else if(j>=36  && j<40){
+        if(y>=6900){
+        produits[j].style.opacity='1';
+        produits[j].style.transition='1s'
+      }
+        else{
+          produits[j].style.opacity='0'
+        }
+    }
+    else if(j>=40  && j<44){
+        if(y>=7500){
+        produits[j].style.opacity='1';
+        produits[j].style.transition='1s'
+      }
+        else{
+          produits[j].style.opacity='0'
+        }
+    }
+    else if(j>=44  && j<48){
+        if(y>=8100){
+        produits[j].style.opacity='1';
+        produits[j].style.transition='1s'
+      }
+        else{
+          produits[j].style.opacity='0'
+        }
+    }
+    else if(j>=48  && j<52){
+        if(y>=8700){
+        produits[j].style.opacity='1';
+        produits[j].style.transition='1s'
+      }
+        else{
+          produits[j].style.opacity='0'
+        }
+    }
+    else if(j>=52  && j<56){
+        if(y>=9300){
+        produits[j].style.opacity='1';
+        produits[j].style.transition='1s'
+      }
+        else{
+          produits[j].style.opacity='0'
+        }
+    }
+    else if(j>=56  && j<60){
+        if(y>=9900){
+        produits[j].style.opacity='1';
+        produits[j].style.transition='1s'
+      }
+        else{
+          produits[j].style.opacity='0'
+        }
+    }
+    else if(j>=60  && j<64){
+        if(y>=10500){
+        produits[j].style.opacity='1';
+        produits[j].style.transition='1s'
+      }
+        else{
+          produits[j].style.opacity='0'
+        }
+    }
+    
+  }
+  
+  
+ 
+}
+    }
+scr();
+  </script>
+
+  </body>
+  <!-- <script>
+    
+    
+
+
+  </script> -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ 
+ 
+</html>

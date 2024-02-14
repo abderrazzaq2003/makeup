@@ -1,0 +1,35 @@
+#h10{
+    color: palevioletred;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+}
+#def1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    padding: 1%;
+
+}
+#text1{
+    color: black;
+    width: 40%;
+    font-size: 20px;
+   
+   /*  position: relative;
+    left: -700px; */
+}
+#p10{
+    width: 100%;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+#img1{
+    width: 40%;
+    opacity: 1;
+
+}
+#img1 img{
+    width: 100%;
+}

@@ -1,0 +1,76 @@
+.contactuser .headingcontact {
+   
+    text-align: center;
+    
+  }
+  .contactuser{
+  background-color: rgb(0, 191, 255); 
+  padding: 2%;
+  
+  }
+  .contactuser p{
+    color: white;
+    font-size: 3rem;
+   }  
+   .contactuser a{
+    color: white;
+    border-radius: 20px;
+   }  
+   .contactuser a:hover{
+    color:black;
+    background-color: white;
+    border-radius: 20px;
+     } 
+   .contactuser h1{
+    color: white;
+    padding-top: 30px;
+    font-size: 3rem;
+    padding-bottom: 30px;
+   } 
+  
+  .contactuser form{
+    background-color:  rgb(0, 191, 255);;
+    border:white 5px solid;
+    padding:2rem;
+    max-width: 50rem;
+    margin:0 auto;
+    text-align: center;
+  }
+  
+  .contactuser form h1{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    color:white;
+  }
+  
+  .contactuser form .box{
+    margin:1rem 0;
+    width: 95%;
+    background-color: white;
+    padding:1.2rem 1.4rem;
+    font-size: 1.8rem;
+    color:black;
+    border-radius: .5rem;
+    outline: none;
+  }
+  
+  .contactuser form textarea{
+    resize: none;
+    outline: none;
+  }
+  .btncontact{
+    color:white;
+    font-size: 1.6rem;
+   background-color:transparent;
+  border: white 5px solid;
+   width: 200px;
+   height: 60px;
+   border-radius: .5rem;
+  }
+  .btncontact:hover{
+    color:black;
+   background-color:white;
+   border-radius: .5rem;
+  
+  }

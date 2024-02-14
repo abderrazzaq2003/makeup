@@ -1,0 +1,69 @@
+#contone{
+    height: 90vh;
+    background: #FFE4E1;
+    display: flex;
+    overflow: hidden;
+}
+#debut{
+    width: 45%;
+    padding: 5%;
+    opacity: 1;
+    position: relative;
+    top: 0;
+    animation: daou 3s 1 ;
+}
+@keyframes daou {
+    from{
+        opacity: 0; 
+        top: -100px;
+    }
+    to{
+        opacity: 1;
+        top: 0;
+    }
+}
+#debut h1{
+    color: transparent;
+    -webkit-text-stroke: 1px #000000;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+#debut p{
+    font-size: 18px;
+}
+
+#image-debut{
+    width: 50%;
+    position: relative;
+    background: #F0FFF0;
+    border-radius: 50%;
+    
+}
+#image-debut img{
+width: 100%;
+position: absolute;
+top: 180px;
+opacity: 1;
+animation: opacity 3s 1;
+
+}
+#hr10{
+    width: 90%;
+    height: 2px;
+}
+#debut h1::first-letter{
+    color: #000000;
+}
+@keyframes opacity {
+    from{
+      opacity: 0;
+        top: 0;
+
+    }
+    to{
+        opacity: 1;
+        top: 180px;
+    }
+}
+

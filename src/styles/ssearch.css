@@ -1,0 +1,79 @@
+#search{
+    width: 100%;
+    height: 200px;
+   background: url('../images/beau-portrait-jeune-femme-produit-maquillage.jpg');
+   background-size: cover;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+    justify-content: center;
+    margin: 0;
+ 
+    animation: qq 10s infinite;
+}
+@keyframes qq {
+    0%{
+        background: url('../images/beau-portrait-jeune-femme-produit-maquillage.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    25%{
+        background: url('../images/haute-couture-look-glamour-mode-portrait-belle-fille-brune-sexy-maquillage-lumineux-levres-rouges-son-reflet-dans-table-miroir-dark.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    50%{
+        background: url('../images/pinceau-cosmetique-nuage-poudre-rose-fond-sombre.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    75%{
+        background: url('../images/portrait-jeune-fille-au-beret-rouge-peignant-ses-levres-du-rouge-levres-brillant-fond-rose.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    100%{
+        background: url('../images/beau-portrait-jeune-femme-produit-maquillage.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+}
+#search form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, .8);
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+   
+}
+#search form input[type='search']{
+    background: white;
+    width: 30%;
+    height: 35px;
+    border: 2px solid black;
+  
+    border-radius: 25px 0 0 25px;
+    padding: 0 1%;
+
+}
+
+#search form button{
+  background: white;
+    border: none;
+   
+    border-radius: 0 25px 25px 0;
+    outline: none;
+    height: 35px;
+    
+}
+#search form input[type='search']:is(:active,:valid){
+    border: none;
+    outline: 0;
+}
